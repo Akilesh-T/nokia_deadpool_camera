@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hmdglobal.app.camera.widget.LocationDialogLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera" android:background="@color/fullscreen_dialog_background_color" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/location_dialog_content"/>
+</com.hmdglobal.app.camera.widget.LocationDialogLayout>

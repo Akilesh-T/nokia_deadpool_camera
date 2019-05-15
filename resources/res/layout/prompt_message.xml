@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="300dp">
+    <TextView android:textSize="15sp" android:textColor="#ffffff" android:id="@+id/prompt_message" android:background="@drawable/arcseekbar_actions_bg" android:padding="15dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

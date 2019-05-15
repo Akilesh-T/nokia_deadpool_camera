@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>બંધ</item>
+        <item>સ્વતઃ</item>
+        <item>ચાલુ</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>ફોન મેમરીમાં</item>
+        <item>SD કાર્ડમાં</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>સ્વતઃ</item>
+        <item>અજવાળુ</item>
+        <item>વાદળછાયું</item>
+        <item>છાંયો</item>
+        <item>રંગબેરંગી</item>
+        <item>પૂર્ણ પ્રકાશિત</item>
+    </array>
+</resources>

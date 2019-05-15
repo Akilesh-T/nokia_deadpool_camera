@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="panoramagp3_ANTI_BANDING">
+        <item>Off</item>
+        <item>အလိုအလျောက်</item>
+        <item>50Hz</item>
+        <item>60Hz</item>
+    </array>
+    <array name="panoramagp3_FOCUS_MODE">
+        <item>အလိုအလျောက်</item>
+        <item>Infinity</item>
+    </array>
+    <array name="pref_camera_hdr_texts">
+        <item>ပိတ်ထားသည်</item>
+        <item>@string/setting_auto</item>
+        <item>ဖွင့်ထားသည်</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>@string/pref_camera_savepath_entry_0</item>
+        <item>@string/pref_camera_savepath_entry_1</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>@string/pro_mode_arc_auto</item>
+        <item>@string/pro_mode_arc_web_mode_precent1</item>
+        <item>@string/pro_mode_arc_web_mode_precent2</item>
+        <item>@string/pro_mode_arc_web_mode_precent3</item>
+        <item>@string/pro_mode_arc_web_mode_precent4</item>
+        <item>@string/pro_mode_arc_web_mode_precent5</item>
+    </array>
+</resources>

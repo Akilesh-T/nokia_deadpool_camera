@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>निष्क्रिय छ</item>
+        <item>स्वतः</item>
+        <item>सक्रिय छ</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>फोनको मेमोरीमा</item>
+        <item>SD कार्डमा</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>स्वतः</item>
+        <item>दिनको प्रकाश</item>
+        <item>बादल लागेको</item>
+        <item>छायाँ</item>
+        <item>फ्लोरेसेन्ट</item>
+        <item>चम्कने</item>
+    </array>
+</resources>

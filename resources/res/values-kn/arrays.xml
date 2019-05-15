@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>ಆಫ್</item>
+        <item>ಸ್ವಯಂ</item>
+        <item>ಆನ್</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>ಫೋನ್ ಮೆಮೊರಿಯಲ್ಲಿ</item>
+        <item>ಎಸ್‌ಡಿ ಕಾರ್ಡ್‌ನಲ್ಲಿ</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>ಸ್ವಯಂ</item>
+        <item>ಹಗಲುಬೆಳಕು</item>
+        <item>ಮೋಡ ಕವಿದ</item>
+        <item>ನೆರಳು</item>
+        <item>ಫ್ಲೂರೆಸೆಂಟ್</item>
+        <item>Incandsecent</item>
+    </array>
+</resources>

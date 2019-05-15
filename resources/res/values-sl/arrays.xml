@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>Izklopljeno</item>
+        <item>Samodejno</item>
+        <item>Vklopljeno</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>Pomnilnik v mobilnem telefonu</item>
+        <item>Na kartici SD</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>Samodejno</item>
+        <item>Dnevna svetloba</item>
+        <item>Oblačno</item>
+        <item>Senca</item>
+        <item>Svetloba fluorescenčne sijalke</item>
+        <item>Svetloba sijalke z žarilno nitko</item>
+    </array>
+</resources>

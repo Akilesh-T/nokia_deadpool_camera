@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>ഓഫ്</item>
+        <item>സ്വപ്രേരിതം</item>
+        <item>ഓൺ</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>ഫോൺ മെമ്മറിയിൽ</item>
+        <item>SD കാർഡിൽ</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>സ്വപ്രേരിതം</item>
+        <item>പകൽ വെളിച്ചം</item>
+        <item>മേഘാവൃതം</item>
+        <item>നിഴൽ</item>
+        <item>ഫ്ലൂറസെന്‍റ്</item>
+        <item>ധവളപ്രഭ</item>
+    </array>
+</resources>

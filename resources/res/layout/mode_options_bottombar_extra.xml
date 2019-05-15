@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hmdglobal.app.camera.ui.BottomBarModeOptionsWrapperExtra xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.hmdglobal.app.camera.ui.MoreOptionsWrapper android:orientation="vertical" android:id="@+id/more_layout_wrapper" android:background="#cc000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_gravity="bottom" android:id="@+id/more_operator_layout" android:paddingTop="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@+id/more_icons_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+                <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+                <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                        <ImageButton android:layout_gravity="center" android:id="@+id/imgbtn_square" android:background="@drawable/icon_more_squaremode" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                        <Button android:textColor="@color/more_mode_title" android:id="@+id/btn_square" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mode_square" android:textAllCaps="false"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@+id/time_lapsed_container" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                        <ImageButton android:layout_gravity="center" android:id="@+id/imgbtn_timelapse" android:background="@drawable/icon_more_timelapsed" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                        <Button android:textColor="@color/more_mode_title" android:id="@+id/btn_time_lapse" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mode_timelapse" android:textAllCaps="false"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                        <ImageButton android:layout_gravity="center" android:id="@+id/imgbtn_lens" android:background="@drawable/icon_more_lens" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                        <Button android:textColor="@color/more_mode_title" android:id="@+id/btn_google_lens" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mode_google_lens" android:textAllCaps="false"/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@+id/ll_panorama" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                        <ImageButton android:layout_gravity="center" android:id="@+id/imgbtn_panorama" android:background="@drawable/icon_more_panorama" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                        <Button android:textColor="@color/more_mode_title" android:id="@+id/btn_panorama" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/mode_panorama" android:textAllCaps="false"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </com.hmdglobal.app.camera.ui.MoreOptionsWrapper>
+    <com.hmdglobal.app.camera.ui.EffectsContainerWrapper android:orientation="vertical" android:id="@+id/effect_layout_wrapper" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_gravity="bottom" android:id="@+id/effect_operator_layout" android:paddingTop="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/beautiful_layout" android:layout_width="match_parent" android:layout_height="120px">
+                <FrameLayout android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <com.hmdglobal.app.camera.ui.CustomSeekBar android:id="@+id/seekbarbeauty" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+                    <ImageView android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="1dp" android:src="#4cffffff" android:alpha="20"/>
+                </FrameLayout>
+            </LinearLayout>
+            <FrameLayout android:id="@+id/mask_layout" android:layout_width="match_parent" android:layout_height="120px">
+                <ImageView android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="1dp" android:src="#4cffffff" android:alpha="20"/>
+            </FrameLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/live_bolken_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="120px">
+                <FrameLayout android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <com.hmdglobal.app.camera.ui.CustomSeekBar android:id="@+id/seekbar_bolken" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp"/>
+                    <ImageView android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="1dp" android:src="#4cffffff" android:alpha="20"/>
+                </FrameLayout>
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/effects_toggle_button_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="25px" android:layout_marginBottom="25px">
+            <com.hmdglobal.app.camera.MultiToggleImageButton android:layout_gravity="center" android:id="@+id/live_bolken_toggle_state_button" android:visibility="visible" android:layout_width="0dp" android:layout_height="50px" android:layout_weight="1" app:imageIds="@array/live_bokeh_choose"/>
+            <com.hmdglobal.app.camera.MultiToggleImageButton android:layout_gravity="center" android:id="@+id/beauty_toggle_button" android:visibility="visible" android:layout_width="0dp" android:layout_height="50px" android:layout_weight="1" app:imageIds="@array/beauty_icons"/>
+            <com.hmdglobal.app.camera.MultiToggleImageButton android:layout_gravity="center" android:id="@+id/effect_toggle_button" android:visibility="visible" android:layout_width="0dp" android:layout_height="50px" android:layout_weight="1" app:imageIds="@array/mask_choose"/>
+        </LinearLayout>
+    </com.hmdglobal.app.camera.ui.EffectsContainerWrapper>
+    <include layout="@layout/manual_arcseekbar_layout"/>
+</com.hmdglobal.app.camera.ui.BottomBarModeOptionsWrapperExtra>

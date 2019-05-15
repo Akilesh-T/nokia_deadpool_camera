@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>ਬੰਦ</item>
+        <item>ਸਵੈਚਲ</item>
+        <item>ਚਾਲੂ</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>ਫੋਨ ਮੈਮਰੀ ਵਿੱਚ</item>
+        <item>SD ਕਾਰਡ ਵਿੱਚ</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>ਸਵੈਚਲ</item>
+        <item>ਡੇਲਾਈਟ</item>
+        <item>ਧੁੰਦਲਾ</item>
+        <item>ਝਲਕ</item>
+        <item>ਫਲੌਰਸੈਂਟ</item>
+        <item>ਚਮਕੀਲਾ</item>
+    </array>
+</resources>

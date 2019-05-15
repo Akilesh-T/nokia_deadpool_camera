@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera" android:orientation="vertical" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v4.view.ViewPager android:id="@+id/vp_welcome" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:overScrollMode="never"/>
+    <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@+id/tv_tips" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp"/>
+    <RelativeLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/ll_point_group" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <View android:id="@+id/view_white_point" android:background="@drawable/shape_point_white" android:layout_width="8dp" android:layout_height="8dp"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="45dp">
+        <Button android:id="@+id/button_1" android:background="@drawable/bg_btn_blue" android:layout_width="wrap_content" android:layout_height="36dp" android:layout_marginRight="30dp" android:minWidth="81dp" android:text="@string/startup_dialog_button_next" android:layout_centerVertical="true" android:paddingStart="16dp" android:paddingEnd="16dp" android:layout_alignParentEnd="true" style="@style/Widget.AppCompat.Button.Colored"/>
+        <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@+id/tv_skip" android:background="@drawable/bg_tv_pressed" android:layout_width="wrap_content" android:layout_height="36dp" android:layout_marginLeft="50dp" android:minWidth="81dp" android:text="@string/pro_mode_tutorial_btn_skip" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+</LinearLayout>

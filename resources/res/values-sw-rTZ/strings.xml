@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="countdown_timer_duration_2s">Muda wa king’ora umewekwa kuwa sekunde 2</string>
+    <string name="delete_selection_burst">Mfululizo huu wa upigaji picha una picha %s. Je, ungependa kufuta picha zote?</string>
+    <string name="permission_content">Gusa hapa uipe ruhusa.</string>
+    <string name="permission_title">Kamera inahitaji ruhusa</string>
+    <string name="phone_storage_low_for_alert_dialog">Hifadhi ya simu iko chini. Kamera itafungwa.</string>
+    <string name="pref_front_camera_size_title_vdf">Ukubwa picha (mbele)</string>
+    <string name="pref_rear_camera_size_title_vdf">Ukubwa picha (nyuma)</string>
+    <string name="sd_card_low_for_alert_dialog">Hifadhi ya kadi ya SD iko chini. Kamera itafungwa.</string>
+    <string name="setting_auto">Otomatiki</string>
+    <string name="setting_off">Imezimwa</string>
+    <string name="setting_on">Imewashwa</string>
+    <string name="storage_low_close_alert_dialog">Funga</string>
+</resources>

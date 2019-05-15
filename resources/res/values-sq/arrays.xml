@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>Joaktiv</item>
+        <item>Automatik</item>
+        <item>Aktiv</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>Në memorien e telefonit</item>
+        <item>Në kartën SD</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>Automatik</item>
+        <item>Drita e ditës</item>
+        <item>Me re</item>
+        <item>Hije</item>
+        <item>Fluoreshente</item>
+        <item>Inkandeshente</item>
+    </array>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:gravity="center" android:layout_gravity="center" android:id="@+id/recording_time" android:visibility="gone" android:drawableLeft="@drawable/ic_recording_indicator_oval" android:drawablePadding="@dimen/video_recordtime_drawablePadding" style="@style/OnViewfinderLabel"/>
+    <TextView android:id="@+id/time_lapse_label" android:visibility="gone" android:text="@string/time_lapse_title" style="@style/OnViewfinderLabel"/>
+</LinearLayout>

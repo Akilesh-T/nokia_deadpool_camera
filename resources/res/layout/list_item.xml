@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera" android:gravity="center" android:orientation="vertical" android:id="@+id/item_linear" android:background="#00000000" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15px" android:layout_marginTop="12px" android:layout_marginRight="15px" android:layout_marginBottom="12px" android:layout_centerInParent="true">
+    <ImageView android:id="@+id/item_image" android:padding="1px" android:focusable="false" android:clickable="false" android:layout_width="90px" android:layout_height="90px" android:scaleType="fitCenter"/>
+    <View android:layout_gravity="center" android:id="@+id/indicator_shape" android:background="@drawable/white_shape_bg" android:visibility="invisible" android:layout_width="6px" android:layout_height="6px"/>
+</LinearLayout>

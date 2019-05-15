@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>Wyłączono</item>
+        <item>Automat.</item>
+        <item>Włączono</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>W pamięci telefonu</item>
+        <item>Na karcie SD</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>Automat.</item>
+        <item>Światło dzienne</item>
+        <item>Zachmurzenie</item>
+        <item>Cień</item>
+        <item>Ciepłe światło fluorescencyjne</item>
+        <item>Żarówka</item>
+    </array>
+</resources>

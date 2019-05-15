@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <solid android:color="@color/mode_list_settings_icon_pressed_background"/>
+    <size android:height="@dimen/mode_list_settings_icon_size" android:width="@dimen/mode_list_settings_icon_size"/>
+</shape>

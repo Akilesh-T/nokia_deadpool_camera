@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>Naka-off</item>
+        <item>Awtomatiko</item>
+        <item>Naka-on</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>Sa memory ng telepono</item>
+        <item>Sa SD card</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>Awtomatiko</item>
+        <item>Maaraw</item>
+        <item>Maulap</item>
+        <item>Lilim</item>
+        <item>Fluorescent</item>
+        <item>Incandsecent</item>
+    </array>
+</resources>

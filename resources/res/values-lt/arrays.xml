@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>Išjungta</item>
+        <item>Automatinis</item>
+        <item>Įjungta</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>Telefono atmintyje</item>
+        <item>SD kortelėje</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>Automatinis</item>
+        <item>Dienos šviesa</item>
+        <item>Debesuota</item>
+        <item>Šešėliavimas</item>
+        <item>Šiltas fluorescencinis</item>
+        <item>Akinančiai skaistus</item>
+    </array>
+</resources>

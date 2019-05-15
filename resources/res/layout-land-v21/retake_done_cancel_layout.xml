@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.hmdglobal.app.camera.ui.TopRightWeightedLayout android:gravity="center" android:orientation="vertical" android:id="@+id/bottombar_intent_review" android:background="@color/bottombar_unpressed" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageButton android:layout_gravity="center" android:id="@+id/cancel_button" android:background="?android:attr/selectableItemBackgroundBorderless" android:padding="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_cancel" android:contentDescription="@string/cancel_button_description"/>
+        <FrameLayout android:layout_gravity="center" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+            <ImageButton android:layout_gravity="center" android:id="@+id/done_button" android:background="?android:attr/selectableItemBackgroundBorderless" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_confirm" android:contentDescription="@string/done_button_description"/>
+        </FrameLayout>
+        <ImageButton android:layout_gravity="center" android:id="@+id/retake_button" android:background="?android:attr/selectableItemBackgroundBorderless" android:padding="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_back" android:contentDescription="@string/retake_button_description"/>
+    </com.hmdglobal.app.camera.ui.TopRightWeightedLayout>
+</merge>

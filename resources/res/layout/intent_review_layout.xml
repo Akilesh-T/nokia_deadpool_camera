@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.hmdglobal.app.camera.ui.RotateLayout android:id="@+id/intent_review_rotate_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.hmdglobal.app.camera.ui.IntentReviewControls android:id="@+id/intent_review_controls" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageButton android:id="@+id/cancel_button" android:background="@null" android:paddingLeft="20dp" android:paddingBottom="50dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/retake_action" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true"/>
+            <ImageButton android:id="@+id/done_button" android:background="@null" android:paddingRight="20dp" android:paddingBottom="50dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/submit_action" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true"/>
+            <ImageButton android:id="@+id/retake_button" android:background="@null" android:paddingLeft="20dp" android:paddingBottom="50dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/retake_action" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"/>
+            <ImageButton android:id="@+id/review_button" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_play" android:layout_centerInParent="true"/>
+        </com.hmdglobal.app.camera.ui.IntentReviewControls>
+    </com.hmdglobal.app.camera.ui.RotateLayout>
+</LinearLayout>

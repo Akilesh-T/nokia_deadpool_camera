@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera" android:orientation="horizontal" android:id="@+id/camera_undo_deletion_bar" android:visibility="gone" style="@style/UndoBar">
+    <TextView android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="4dp" android:layout_marginRight="60dp" android:text="@string/deleted" android:layout_weight="1" style="@style/UndoBarTextAppearance"/>
+    <View style="@style/UndoBarSeparator"/>
+    <TextView android:id="@+id/camera_undo_deletion_button" android:layout_marginLeft="8dp" android:text="@string/undo" android:drawableLeft="@drawable/ic_menu_revert_holo_dark" style="@style/UndoButton"/>
+</LinearLayout>

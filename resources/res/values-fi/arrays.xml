@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>Pois käytöstä</item>
+        <item>Automaattinen</item>
+        <item>Käytössä</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>Puhelimen muistissa</item>
+        <item>SD-kortilla</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>Automaattinen</item>
+        <item>Päivänvalo</item>
+        <item>Pilvistä</item>
+        <item>Varjo</item>
+        <item>Loisteputki</item>
+        <item>Hehkulamppu</item>
+    </array>
+</resources>

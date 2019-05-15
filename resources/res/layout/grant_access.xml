@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera" android:background="@color/permissions_dialog_background_color" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/perms_deny_title_text_size" android:textColor="@color/permissions_dialog_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/perms_deny_title_marginTop" android:text="@string/grant_access_title" android:layout_marginStart="@dimen/perms_deny_title_marginStart"/>
+    <TextView android:textSize="@dimen/perms_deny_msg_text_size" android:textColor="@color/permissions_dialog_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/perms_deny_msg_marginTop" android:text="@string/grant_access_msg" android:layout_marginStart="@dimen/perms_deny_msg_marginStart" android:layout_marginEnd="@dimen/perms_deny_msg_marginEnd"/>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/perms_deny_bg_marginTop" android:src="@drawable/bg_permission_denied" android:layout_marginStart="@dimen/perms_deny_bg_marginHor"/>
+    <View android:background="@color/permissions_dialog_text_color" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="@dimen/perms_deny_div_marginTop"/>
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/perms_deny_bn_layout_height">
+        <LinearLayout android:gravity="center" android:id="@+id/exit_layout" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textSize="@dimen/perms_deny_bn_text_size" android:textColor="@color/permissions_dialog_text_color" android:layout_gravity="center" android:id="@+id/exit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/grant_access_exit"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@+id/settings_layout" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textSize="@dimen/perms_deny_bn_text_size" android:textColor="@color/permissions_dialog_text_color" android:layout_gravity="center" android:id="@+id/settings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/grant_access_settings"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

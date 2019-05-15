@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera" android:id="@+id/camera_app_root" android:layout_width="match_parent" android:layout_height="match_parent" android:translationY="-46px">
+    <com.hmdglobal.app.camera.beauty.cameragl.CameraSurfaceView android:id="@+id/preview_content_gl" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:translationY="60px"/>
+    <TextureView android:id="@+id/preview_content" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.hmdglobal.app.camera.ui.ModeTransitionView android:layout_gravity="top|center_vertical|center_horizontal|center" android:id="@+id/mode_transition_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:id="@+id/camera_switch_animation_background" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:id="@+id/camera_switch_animation" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.hmdglobal.app.camera.ui.EvoSlider android:id="@+id/evo_slider" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.hmdglobal.app.camera.ui.FocusOverlay android:id="@+id/focus_overlay" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.hmdglobal.app.camera.ui.CaptureAnimationOverlay android:id="@+id/capture_overlay" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.hmdglobal.app.camera.ui.PreviewOverlay android:id="@+id/preview_overlay" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.hmdglobal.app.camera.ui.RotateLayout android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/zoom_rotate_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/zoom_bar"/>
+    </com.hmdglobal.app.camera.ui.RotateLayout>
+    <com.hmdglobal.app.camera.ui.camera2.Camera2FaceView android:id="@+id/face_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.hmdglobal.app.camera.ui.GestureView android:id="@+id/gesture_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.hmdglobal.app.camera.ui.GridLines android:layout_gravity="center_horizontal" android:id="@+id/grid_lines" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.hmdglobal.app.camera.ui.RotateLayout android:id="@+id/intent_review_imageview_layout" android:background="@color/intent_capture_review_background" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/intent_review_imageview" android:background="@android:color/black" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter"/>
+    </com.hmdglobal.app.camera.ui.RotateLayout>
+    <include layout="@layout/intent_review_layout"/>
+    <include layout="@layout/hdr_badge"/>
+    <include layout="@layout/prompt_message"/>
+    <com.hmdglobal.app.camera.ui.ModuleLayoutWrapper android:id="@+id/module_layout" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <include layout="@layout/mode_options_bottombar"/>
+    <ViewStub android:id="@+id/mob_extra_viewstub" android:layout="@layout/mode_options_bottombar_extra" android:inflatedId="@+id/mob_extra_layout" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/helptips_placeholder_wrapper" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/view_finder_layout" android:background="@color/view_finder_color" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <FrameLayout android:id="@+id/front_gesture_help_view" android:background="@color/tourial_semitransparent" android:visibility="invisible" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/gesture_palm_help"/>
+    </FrameLayout>
+    <include layout="@layout/keyguard_widget"/>
+</FrameLayout>

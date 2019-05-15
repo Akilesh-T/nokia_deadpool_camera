@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>ปิด</item>
+        <item>อัตโนมัติ</item>
+        <item>เปิด</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>ในหน่วยความจำโทรศัพท์</item>
+        <item>ในการ์ด SD</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>อัตโนมัติ</item>
+        <item>แสงแดด</item>
+        <item>เมฆมาก</item>
+        <item>ร่มเงา</item>
+        <item>ฟลูออเรสเซนต์</item>
+        <item>ทังสเตน</item>
+    </array>
+</resources>

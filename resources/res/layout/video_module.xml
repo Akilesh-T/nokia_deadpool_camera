@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.hmdglobal.app.camera.ui.RecordTimeLayout android:id="@+id/recording_time_rect" style="@style/ViewfinderLabelLayout">
+        <include android:id="@+id/labels" layout="@layout/viewfinder_labels_video"/>
+    </com.hmdglobal.app.camera.ui.RecordTimeLayout>
+    <include layout="@layout/video_boom_key_tip"/>
+    <ImageView android:id="@+id/review_image" android:background="@android:color/black" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitStart"/>
+    <ImageView android:id="@+id/btn_play" android:visibility="gone" android:src="@drawable/ic_gallery_play_big" android:scaleType="center" android:layout_centerInParent="true" android:onClick="onReviewPlayClicked" style="@style/ReviewControlIcon"/>
+    <TextView android:layout_gravity="top|center_vertical|center_horizontal|center" android:id="@+id/micro_shoot_help_tip" android:background="@drawable/bg_micro_shoot_tip" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="@dimen/micro_shutter_tip_height" android:text="@string/micro_shutter_help_tip" style="@style/MicroTip"/>
+    <TextView android:layout_gravity="top" android:id="@+id/micro_minimum_time_tip" android:background="@drawable/bg_micro_mintime_tip" android:layout_width="@dimen/micro_mintime_tip_width" android:layout_height="@dimen/micro_mintime_tip_height" android:layout_marginLeft="@dimen/micro_shutter_tip_margin_left" android:text="@string/micro_minimum_time_tip" style="@style/MicroTip"/>
+</merge>

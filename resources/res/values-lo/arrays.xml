@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>ປິດ</item>
+        <item>ອັດຕະໂນມັດ</item>
+        <item>ເປີດ</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>ໃນໜ່ວຍຄວາມຈຳໂທລະສັບ</item>
+        <item>ໃນ SD ກາດ</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>ອັດຕະໂນມັດ</item>
+        <item>ກາງເວັນ</item>
+        <item>ມີເຝື້ອ</item>
+        <item>ຮົ່ມເງົາ</item>
+        <item>ໄຟຟລູໂອເຣສເຊນ</item>
+        <item>ໄຟຫລອດໄສ້</item>
+    </array>
+</resources>

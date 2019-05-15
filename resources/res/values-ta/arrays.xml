@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>முடக்கப்பட்டுள்ளது</item>
+        <item>தானியங்கு</item>
+        <item>ஆன்</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>மொபைல் நினைவகத்தில்</item>
+        <item>SD கார்டில்</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>தானியங்கு</item>
+        <item>பகலொளி</item>
+        <item>மேகமூட்டம்</item>
+        <item>நிழல்</item>
+        <item>ஒளிர்வொளி</item>
+        <item>வெண்சுடரொளி</item>
+    </array>
+</resources>

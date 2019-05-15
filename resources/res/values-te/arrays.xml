@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>ఆఫ్</item>
+        <item>స్వయంచాలకం</item>
+        <item>ఆన్</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>ఫోన్ మెమరీలో</item>
+        <item>SD కార్డ్‌లో</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>స్వయంచాలకం</item>
+        <item>పగటికాంతి</item>
+        <item>మేఘావృతం</item>
+        <item>నీడ</item>
+        <item>ఫ్లోరెసెంట్</item>
+        <item>ఇన్‌కండెసెంట్</item>
+    </array>
+</resources>

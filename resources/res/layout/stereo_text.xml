@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hmdglobal.app.camera.ui.StereoRotateTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera" android:id="@+id/stereo_text" android:paddingLeft="@dimen/bottom_bar_title_padding" android:paddingRight="@dimen/bottom_bar_title_padding" android:layout_width="wrap_content" android:layout_height="41dp" style="@style/ModeNameText"/>

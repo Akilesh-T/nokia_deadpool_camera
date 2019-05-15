@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>ጠፍቷል</item>
+        <item>ራስሰር</item>
+        <item>በርቷል</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>በስልክ ማህደረ ትውስታ</item>
+        <item>SD ካርድ ውስጥ</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>ራስሰር</item>
+        <item>የቀን ብርሃን</item>
+        <item>ደመናማ</item>
+        <item>ቅብ</item>
+        <item>ፍሎረሰንት</item>
+        <item>Incandsecent</item>
+    </array>
+</resources>

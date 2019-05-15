@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera">
+    <PreferenceCategory android:title="@string/setting_group_general" android:key="pref_group_general_key">
+        <com.hmdglobal.app.camera.settings.ManagedSwitchPreference android:title="@string/pref_camera_sound_title" android:key="pref_camera_capture_sound" android:summary="@string/shutter_sound_summary" android:defaultValue="true"/>
+        <com.hmdglobal.app.camera.settings.ManagedSwitchPreference android:title="@string/pref_camera_grid_title" android:key="pref_camera_grid_lines" android:summary="@string/grid_summary" android:defaultValue="false"/>
+        <ListPreference android:entries="@array/pref_camera_savepath_entries" android:title="@string/pref_camera_savepath_title" android:key="pref_camera_savepath_key" android:defaultValue="@string/pref_camera_savepath_default" android:entryValues="@array/pref_camera_savepath_entryvalues"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/setting_group_photo" android:key="pref_group_photo_key">
+        <com.hmdglobal.app.camera.settings.ManagedSwitchPreference android:title="@string/pref_camera_save_location_title" android:key="pref_camera_recordlocation_key" android:summary="@string/location_tag_summary" android:defaultValue="false"/>
+        <com.hmdglobal.app.camera.settings.ManagedSwitchPreference android:title="@string/pref_camera_depth_title" android:key="pref_camera_depth_key" android:summary="@string/depth_summary" android:defaultValue="false"/>
+        <com.hmdglobal.app.camera.settings.ManagedSwitchPreference android:title="@string/pref_raw_file_format_title" android:key="pref_camera_raw_file_key" android:summary="@string/raw_file_format_support_summary" android:defaultValue="false"/>
+        <com.hmdglobal.app.camera.settings.ManagedSwitchPreference android:title="@string/pref_shutter_controller_title" android:key="pref_camera_shutter_controller_key" android:summary="@string/shutter_control_summary" android:defaultValue="false"/>
+        <com.hmdglobal.app.camera.settings.ManagedSwitchPreference android:title="@string/pref_camera_mirror_selfie_title" android:key="pref_camera_mirror_key" android:summary="@string/mirror_photos_summary" android:defaultValue="true"/>
+        <com.hmdglobal.app.camera.settings.ManagedSwitchPreference android:title="@string/pref_camera_low_light_title" android:key="pref_camera_low_light_key" android:summary="@string/low_light_summary" android:defaultValue="true"/>
+        <com.hmdglobal.app.camera.settings.ManagedSwitchPreference android:title="@string/pref_camera_enable_algorithm_title" android:key="pref_camera_enable_algorithm_key" android:summary="@string/enable_algorithms_summary" android:defaultValue="true"/>
+        <Preference android:title="@string/pref_resolution_title" android:key="pref_photo_resolution_key" android:summary="@string/resolution_summary" android:fragment="com.hmdglobal.app.camera.settings.CameraResolutionFragment"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/setting_group_video" android:key="pref_group_video_key">
+        <Preference android:title="@string/pref_resolution_video_title" android:key="pref_video_resolution_key" android:summary="@string/resolution_video_summary" android:fragment="com.hmdglobal.app.camera.settings.CameraResolutionFragment"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/setting_group_reset" android:key="pref_group_reset_key">
+        <Preference android:title="@string/pref_restore_settings" android:key="pref_camera_restore_setting" android:summary="@string/reset_to_factory_summary"/>
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PanoCustomDialogText">
+    </style>
+    <style name="PopupTitleText">
+    </style>
+    <style name="ReviewControlText">
+    </style>
+    <style name="SettingPopupWindow">
+    </style>
+    <style name="ViewfinderLabelLayout">
+    </style>
+</resources>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hmdglobal.app.camera.widget.Cling xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera" android:textSize="14sp" android:textColor="@android:color/white" android:background="@drawable/cling" android:paddingLeft="15dp" android:paddingTop="12dp" android:paddingRight="15dp" android:paddingBottom="25dp" android:layout_width="@dimen/default_cling_width" android:layout_height="wrap_content"/>

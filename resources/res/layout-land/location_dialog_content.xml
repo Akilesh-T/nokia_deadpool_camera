@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center_horizontal" android:orientation="horizontal" android:paddingTop="28dp" style="@style/start_up_dialog_content">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="16dp" android:layout_weight="1">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="28dp" android:layout_marginRight="28dp" android:layout_marginBottom="28dp" android:text="@string/remember_location_title" style="@style/fullscreen_dialog_title"/>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/geo_opt_in_graphic"/>
+    </LinearLayout>
+    <FrameLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_weight="1">
+        <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <CheckBox android:textSize="16sp" android:textColor="@color/dialog_text_color" android:gravity="top" android:id="@+id/check_box" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="72dp" android:text="@string/remember_location_prompt" android:lineSpacingExtra="1.9sp"/>
+            <Button android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/confirm_button" android:text="@string/startup_dialog_button_next" style="@style/BlueButton"/>
+        </FrameLayout>
+    </FrameLayout>
+</LinearLayout>

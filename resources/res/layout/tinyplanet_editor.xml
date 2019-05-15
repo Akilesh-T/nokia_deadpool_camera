@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.hmdglobal.app.camera.tinyplanet.TinyPlanetPreview android:layout_gravity="center_horizontal" android:id="@+id/preview" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <TextView android:textColor="#fff" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/tiny_planet_zoom"/>
+        <SeekBar android:id="@+id/zoomSlider" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="1000" android:progress="500" android:contentDescription="@string/tiny_planet_zoom"/>
+        <TextView android:textColor="#fff" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/tiny_planet_rotate"/>
+        <SeekBar android:id="@+id/angleSlider" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="360" android:progress="0" android:contentDescription="@string/tiny_planet_rotate"/>
+        <Button android:id="@+id/creatTinyPlanetButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/create_tiny_planet"/>
+    </LinearLayout>
+</LinearLayout>

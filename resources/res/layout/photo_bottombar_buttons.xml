@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.hmdglobal.app.camera.MultiToggleImageButton android:id="@+id/flash_toggle_button" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" camera:imageIds="@array/camera_flashmode_icons"/>
+    <com.hmdglobal.app.camera.MultiToggleImageButton android:id="@+id/camera_toggle_button" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" camera:imageIds="@array/camera_id_icons"/>
+    <com.hmdglobal.app.camera.MultiToggleImageButton android:id="@+id/hdr_plus_toggle_button" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" camera:imageIds="@array/pref_camera_hdr_plus_icons"/>
+</merge>

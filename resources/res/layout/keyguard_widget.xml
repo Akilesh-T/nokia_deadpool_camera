@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera" android:id="@+id/keyguard_widget" android:background="@color/mode_cover_default_color" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="center" android:layout_width="@dimen/mode_transition_view_icon_size" android:layout_height="@dimen/mode_transition_view_icon_size" android:src="@drawable/ic_camera_blanket" android:scaleType="fitCenter"/>
+</FrameLayout>

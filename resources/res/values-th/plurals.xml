@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="instant_capture_photos">
+        <item>ภาพถ่าย %1$d ภาพ</item>
+        <item>ภาพถ่าย %1$d ภาพ</item>
+    </plurals>
+</resources>

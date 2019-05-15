@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>Kikapcsolva</item>
+        <item>Automatikus</item>
+        <item>Bekapcsolva</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>A telefonmemóriában</item>
+        <item>Az SD-kártyán</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>Automatikus</item>
+        <item>Nappali fény</item>
+        <item>Felhős</item>
+        <item>Árnyék</item>
+        <item>Meleg fénycső</item>
+        <item>Izzólámpa</item>
+    </array>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>ක්‍රියාවිරහිතයි</item>
+        <item>ස්වයංක්‍රීය</item>
+        <item>ක්‍රියාත්මකයි</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>දුරකථන මතකය තුළ</item>
+        <item>SD කාඩ්පතෙහි</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>ස්වයංක්‍රීය</item>
+        <item>දිවා ආලෝකය</item>
+        <item>වලාකුළු සහිත</item>
+        <item>ආවරණය</item>
+        <item>ප්‍රතිදීපන</item>
+        <item>තාපදීප්ත</item>
+    </array>
+</resources>

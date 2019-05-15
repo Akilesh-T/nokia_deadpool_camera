@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:paddingLeft="16dp" android:paddingRight="16dp" style="@style/start_up_dialog_content">
+    <FrameLayout android:layout_gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <include layout="@layout/aspect_ratio_selector"/>
+    </FrameLayout>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_weight="1">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="28dp" android:text="@string/photo_size_selection_title" style="@style/fullscreen_dialog_title"/>
+        <TextView android:textSize="20sp" android:textColor="@color/dialog_text_color" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="28dp" android:layout_marginBottom="56dp" android:text="@string/photo_aspect_ratio_selection_content" android:layout_weight="1"/>
+        <Button android:id="@+id/confirm_button" android:text="@string/confirm_button_text" style="@style/BlueButton"/>
+    </LinearLayout>
+</LinearLayout>

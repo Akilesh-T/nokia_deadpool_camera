@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <HorizontalScrollView android:scrollbarThumbHorizontal="@layout/scrollbar_thumb" android:scrollbarThumbVertical="@layout/scrollbar_thumb" android:layout_gravity="center" android:id="@+id/HorizontalScrollView01" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="450px">
+        <ImageView android:id="@+id/ImageView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxHeight="450px"/>
+    </HorizontalScrollView>
+    <FrameLayout android:layout_gravity="center" android:id="@+id/FrameLayout01" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:id="@+id/LinearLayout_" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ToggleButton android:id="@+id/ToggleButton_SensorDriven" android:background="@color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:button="@drawable/toggle_button" android:textOn="" android:textOff="" android:minWidth="70dp" android:text="" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageButton android:id="@+id/ButtonShare" android:background="@color/transparent" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/share_btn" android:minWidth="70dp" android:layout_weight="1"/>
+        <ImageButton android:id="@+id/ButtonDelete" android:background="@color/transparent" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/delete_btn" android:minWidth="70dp" android:layout_weight="1"/>
+        <ImageButton android:id="@+id/ButtonInfo" android:background="@color/transparent" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/info_btn" android:minWidth="70dp" android:layout_weight="1"/>
+    </LinearLayout>
+</FrameLayout>

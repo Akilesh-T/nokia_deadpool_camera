@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>关闭</item>
+        <item>自动</item>
+        <item>开启</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>在手机内存中</item>
+        <item>在 SD 卡中</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>自动</item>
+        <item>日光</item>
+        <item>多云</item>
+        <item>阴影</item>
+        <item>荧光灯</item>
+        <item>白炽灯</item>
+    </array>
+</resources>

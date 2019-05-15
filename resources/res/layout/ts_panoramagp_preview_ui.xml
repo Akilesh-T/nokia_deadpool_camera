@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera" android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/panorama_preview_gap" android:layout_marginRight="@dimen/panorama_preview_gap" android:layout_centerHorizontal="true">
+        <FrameLayout android:id="@+id/PanoramaPreview_Frame" android:background="@color/panorama_preview_background" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/panorama_preview_height" android:layout_centerInParent="true">
+            <View android:layout_gravity="center_vertical" android:id="@+id/PanoramaPreview_line" android:background="@color/panorama_preview_line" android:layout_width="match_parent" android:layout_height="@dimen/panorama_preview_line_height"/>
+            <ImageView android:layout_gravity="center" android:id="@+id/PanoramaPreview_ImageView" android:layout_width="wrap_content" android:layout_height="match_parent" android:scaleType="fitCenter"/>
+            <LinearLayout android:layout_gravity="left" android:id="@+id/PanoramaPreview_selectdirection_ui_left" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <ImageView android:id="@+id/PanoramaPreview__selectdirection_ui_preview_left" android:layout_width="wrap_content" android:layout_height="@dimen/panorama_preview_height" android:scaleType="fitCenter"/>
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/panorama_preview_guide_width" android:layout_height="@dimen/panorama_preview_guide_height" android:src="@drawable/ic_pano_move_right_normal"/>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="right" android:id="@+id/PanoramaPreview_selectdirection_ui_right" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/panorama_preview_guide_width" android:layout_height="@dimen/panorama_preview_guide_height" android:src="@drawable/ic_pano_move_left_normal"/>
+                <ImageView android:id="@+id/PanoramaPreview__selectdirection_ui_preview_right" android:layout_width="wrap_content" android:layout_height="@dimen/panorama_preview_height" android:scaleType="fitCenter"/>
+            </LinearLayout>
+        </FrameLayout>
+        <TextView android:textSize="@dimen/panorama_tip_text_size" android:textColor="@color/panorama_tip_text" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/tip_into_panorama" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/panorama_tip_padding_top" android:text="@string/tips_for_panorama_preview" android:shadowColor="@color/panorama_tip_text_shadow_color" android:shadowDx="@integer/panorama_tip_text_shadow" android:shadowDy="@integer/panorama_tip_text_shadow" android:shadowRadius="@integer/panorama_tip_text_shadow_radius" android:layout_below="@+id/PanoramaPreview_Frame"/>
+    </RelativeLayout>
+</merge>

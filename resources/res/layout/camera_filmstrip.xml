@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hmdglobal.app.camera.widget.FilmstripLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera" android:id="@+id/filmstrip_layout" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/camera_filmstrip_content_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.hmdglobal.app.camera.widget.FilmstripView android:id="@+id/filmstrip_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <TextView android:id="@+id/more_mode_text" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <include layout="@layout/filmstrip_bottom_controls"/>
+</com.hmdglobal.app.camera.widget.FilmstripLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>Искључено</item>
+        <item>Аутоматски</item>
+        <item>Укључено</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>У меморији телефона</item>
+        <item>На SD картици</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>Аутоматски</item>
+        <item>Дневна светлост</item>
+        <item>Облачно</item>
+        <item>Сенка</item>
+        <item>Флуоресцентно</item>
+        <item>Обична сијалица</item>
+    </array>
+</resources>

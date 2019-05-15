@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hmdglobal.app.camera.ui.ZoomBar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera" android:orientation="horizontal" android:id="@+id/zoom_bar" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/zoom_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/zoom_bar_padding" android:paddingEnd="@dimen/zoom_bar_padding">
+        <ImageView android:id="@+id/zoom_out" android:layout_width="wrap_content" android:layout_height="@dimen/zoom_bar_height" android:src="@drawable/ic_zoom_out"/>
+        <SeekBar android:layout_gravity="center" android:id="@+id/zoom_seek" android:background="@null" android:layout_width="260dp" android:layout_height="@dimen/zoom_bar_height" android:maxHeight="3dp" android:progressDrawable="@drawable/ic_zoom_big_dark" android:minHeight="3dp" android:thumb="@drawable/seekbar_thumb" android:thumbOffset="0dp"/>
+        <ImageView android:id="@+id/zoom_in" android:layout_width="wrap_content" android:layout_height="@dimen/zoom_bar_height" android:src="@drawable/ic_zoom_in"/>
+    </LinearLayout>
+</com.hmdglobal.app.camera.ui.ZoomBar>

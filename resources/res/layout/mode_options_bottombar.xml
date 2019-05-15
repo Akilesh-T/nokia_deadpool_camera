@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hmdglobal.app.camera.ui.BottomBarModeOptionsWrapper xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera" android:id="@+id/indicator_bottombar_wrapper" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/mode_options_overlay"/>
+    <com.hmdglobal.app.camera.ui.BottomBar android:gravity="center" android:id="@+id/bottom_bar" android:background="#00000000" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.hmdglobal.app.camera.ui.MicroVideoProgressBar android:id="@+id/micro_video_progressbar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/microvideo_progressbar_height" android:layout_marginTop="@dimen/bottom_bar_microvideo_progressbar_margin"/>
+        <com.hmdglobal.app.camera.ui.StereoScrollIndicatorView android:id="@+id/mode_scroll_indicator" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/mode_scrollbar_height" android:layout_marginTop="@dimen/mode_scrollbar_margin_top"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.hmdglobal.app.camera.MultiToggleImageButton android:layout_gravity="center" android:id="@+id/more_enter_toggle_button" android:visibility="visible" android:layout_width="43dp" android:layout_height="43dp" android:layout_marginLeft="11dp" android:layout_marginTop="6.5dp" android:layout_marginRight="11dp" app:imageIds="@array/more_icons"/>
+            <FrameLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <com.hmdglobal.app.camera.ui.StereoModeStripView android:id="@+id/mode_strip_view" android:background="@null" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp"/>
+                <TextView android:textSize="15dp" android:textColor="#ffffff" android:gravity="center" android:layout_gravity="center" android:id="@+id/indicator_text" android:paddingTop="20dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="" android:fontFamily="sans-serif"/>
+            </FrameLayout>
+            <com.hmdglobal.app.camera.MultiToggleImageButton android:layout_gravity="center" android:id="@+id/effects_enter_toggle_button" android:visibility="visible" android:layout_width="43dp" android:layout_height="43dp" android:layout_marginLeft="11dp" android:layout_marginTop="6.5dp" android:layout_marginRight="11dp" app:imageIds="@array/effects_icons"/>
+        </LinearLayout>
+        <RelativeLayout android:clipChildren="true" android:layout_width="match_parent" android:layout_height="match_parent">
+            <View android:id="@+id/bottombar_mock" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </RelativeLayout>
+        <include layout="@layout/bottom_bar_contents"/>
+    </com.hmdglobal.app.camera.ui.BottomBar>
+</com.hmdglobal.app.camera.ui.BottomBarModeOptionsWrapper>

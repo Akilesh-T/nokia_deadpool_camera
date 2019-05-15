@@ -1,0 +1,26 @@
+[
+  {
+    "title_chinese" : "熊猫",
+    "zipName" : "uk_panda.zip",
+    "filter" : "uk_panda",
+    "sample" : "uk_panda",
+    "quality" : 0,
+    "title_english" : "uk_panda"
+  },
+  {
+    "title_chinese" : "花",
+    "zipName" : "flower.zip",
+    "filter" : "flower",
+    "sample" : "flower",
+    "quality" : 0,
+    "title_english" : "flower"
+  },
+  {
+    "title_chinese" : "牛",
+    "zipName" : "cow.zip",
+    "filter" : "cow",
+    "sample" : "cow",
+    "quality" : 0,
+    "title_english" : "cow"
+  }
+]

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>Désactivé</item>
+        <item>Automatique</item>
+        <item>Activé</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>Espace sur l&apos;appareil</item>
+        <item>Espace sur la carte SD</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>Automatique</item>
+        <item>Lumière du jour</item>
+        <item>Nuageux</item>
+        <item>Ombre</item>
+        <item>Fluorescent</item>
+        <item>Incandescent</item>
+    </array>
+</resources>

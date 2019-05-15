@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>Өшірулі</item>
+        <item>Авто</item>
+        <item>Қосулы</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>Телефон жадында</item>
+        <item>SD картасында</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>Авто</item>
+        <item>Күндізгі жарық</item>
+        <item>Бұлтты</item>
+        <item>Көлеңке</item>
+        <item>Флуоресцентті</item>
+        <item>Балқытылған</item>
+    </array>
+</resources>

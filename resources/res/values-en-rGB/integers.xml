@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="camera_mode_gcam">9</integer>
+    <integer name="camera_mode_livebokeh">0</integer>
+    <integer name="camera_mode_manual">2</integer>
+    <integer name="camera_mode_micro_video">12</integer>
+    <integer name="camera_mode_more">16</integer>
+    <integer name="camera_mode_pano">3</integer>
+    <integer name="camera_mode_panorama">8</integer>
+    <integer name="camera_mode_parallax">13</integer>
+    <integer name="camera_mode_photo">4</integer>
+    <integer name="camera_mode_photosphere">7</integer>
+    <integer name="camera_mode_pro">1</integer>
+    <integer name="camera_mode_refocus">6</integer>
+    <integer name="camera_mode_slowmotion">10</integer>
+    <integer name="camera_mode_square">15</integer>
+    <integer name="camera_mode_time_lapse">14</integer>
+    <integer name="camera_mode_video">5</integer>
+    <integer name="camera_mode_video_capture">11</integer>
+</resources>

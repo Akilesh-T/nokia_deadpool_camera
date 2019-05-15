@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hmdglobal.app.camera.ui.HelpTipCling xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera" android:id="@+id/help_tip_cling" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="top|center_vertical|center_horizontal|center" android:id="@+id/anim_focus" android:layout_width="@dimen/pinch_zoom_tip_anim_width" android:layout_height="@dimen/pinch_zoom_tip_anim_height" android:layout_marginTop="@dimen/pinch_zoom_tip_anim_margin_top"/>
+</com.hmdglobal.app.camera.ui.HelpTipCling>

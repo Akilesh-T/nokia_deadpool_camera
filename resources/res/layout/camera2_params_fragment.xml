@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera" android:orientation="vertical" android:paddingBottom="4dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RadioGroup android:orientation="horizontal" android:id="@+id/camera2_mode_group" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RadioButton android:id="@+id/camera2_auto_radio" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/panoramagp3_BTN_LBL_AUTO" android:layout_weight="1"/>
+        <RadioButton android:id="@+id/camera2_tv_radio" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/panoramagp3_BTN_LBL_TV" android:layout_weight="1"/>
+        <RadioButton android:id="@+id/camera2_tv_simple_radio" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/panoramagp3_BTN_LBL_TV_SIMPLE" android:layout_weight="1"/>
+        <RadioButton android:id="@+id/camera2_manual_radio" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/panoramagp3_BTN_LBL_MANUAL" android:layout_weight="1"/>
+    </RadioGroup>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/panoramagp3_LBL_EV" android:layout_weight="1"/>
+        <TextView android:gravity="end" android:layout_gravity="center_vertical" android:id="@+id/ae_compensation_value_text_view" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="2" android:paddingEnd="8dp"/>
+        <SeekBar android:id="@+id/ae_compensation_seek_bar" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="6"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/panoramagp3_LBL_ISO" android:layout_weight="1"/>
+        <TextView android:gravity="end" android:layout_gravity="center_vertical" android:id="@+id/iso_value_text_view" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="2" android:paddingEnd="8dp"/>
+        <SeekBar android:id="@+id/iso_seek_bar" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="6"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/panoramagp3_LBL_SS" android:layout_weight="1"/>
+        <TextView android:gravity="end" android:layout_gravity="center_vertical" android:id="@+id/shutter_speed_text_view" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="2" android:paddingEnd="8dp"/>
+        <SeekBar android:id="@+id/shutter_speed_seek_bar" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="6"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/panoramagp3_LBL_FPS" android:layout_weight="1"/>
+        <TextView android:gravity="end" android:layout_gravity="center_vertical" android:id="@+id/fps_text_view" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="2" android:paddingEnd="8dp"/>
+        <SeekBar android:id="@+id/fps_seek_bar" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="6"/>
+        <SeekBar android:id="@+id/auto_fps_seek_bar" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="6"/>
+    </LinearLayout>
+</LinearLayout>

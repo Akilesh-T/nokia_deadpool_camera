@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>Uit</item>
+        <item>Autom.</item>
+        <item>Aan</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>In telefoongeheugen</item>
+        <item>Op SD-kaart</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>Autom.</item>
+        <item>Daglicht</item>
+        <item>Bewolkt</item>
+        <item>Schaduw</item>
+        <item>Fluorescerend</item>
+        <item>TL-licht</item>
+    </array>
+</resources>

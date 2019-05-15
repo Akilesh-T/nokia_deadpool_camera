@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>Đã tắt</item>
+        <item>Tự động</item>
+        <item>Đang bật</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>Trong bộ nhớ điện thoại</item>
+        <item>Trong thẻ SD</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>Tự động</item>
+        <item>Ánh sáng ban ngày</item>
+        <item>Nhiều mây</item>
+        <item>Bóng</item>
+        <item>Huỳnh quang nóng</item>
+        <item>Ánh sáng nóng</item>
+    </array>
+</resources>

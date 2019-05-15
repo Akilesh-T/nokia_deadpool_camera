@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>Deaktiviert</item>
+        <item>Auto</item>
+        <item>Aktiviert</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>Im Telefonspeicher</item>
+        <item>Auf SD-Karte</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>Auto</item>
+        <item>Tageslicht</item>
+        <item>Bewölkt</item>
+        <item>Schatten</item>
+        <item>Neonlicht</item>
+        <item>Glühlampe</item>
+    </array>
+</resources>

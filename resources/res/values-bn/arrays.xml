@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>বন্ধ আছে</item>
+        <item>স্বত</item>
+        <item>চালু হয়েছে</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>ফোন মেমরিতে</item>
+        <item>SD কার্ডে</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>স্বত</item>
+        <item>দিবালোক</item>
+        <item>মেঘলা</item>
+        <item>ছায়া</item>
+        <item>প্রতিপ্রভ</item>
+        <item>ভাস্বর</item>
+    </array>
+</resources>

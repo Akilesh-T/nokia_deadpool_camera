@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="countdown_timer_duration_2s">Ubude besikhathi sesibali-sikhathi sisethelwe imizuzwana engu-52</string>
+    <string name="delete_selection_burst">Lolu chungechunge lokudubula liqukethe izithombe ezingu-%s. Sula konke?</string>
+    <string name="permission_content">Thinta lapha ukuze unike izimvume.</string>
+    <string name="permission_title">Ikhamera idinga imvume</string>
+    <string name="phone_storage_low_for_alert_dialog">Isitoreji sefoni siphansi Ikhamera izovalwa.</string>
+    <string name="pref_front_camera_size_title_vdf">Usayizi wesithombe(phambili)</string>
+    <string name="pref_rear_camera_size_title_vdf">Usayizi wesithombe (emuva)</string>
+    <string name="sd_card_low_for_alert_dialog">Isitoreji sekhadi le-SD liphansi. Ikhamera izovalwa.</string>
+    <string name="storage_low_close_alert_dialog">Vala</string>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera" android:gravity="center_vertical" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="@dimen/manual_item_height" android:layout_marginTop="2dp" android:layout_marginBottom="2dp" android:layout_centerInParent="true" style="@style/Theme.Black">
+    <SeekBar android:gravity="center" android:id="@+id/customseekbar" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="2dp" android:progressDrawable="@drawable/seekbar_style" android:minHeight="2dp" android:thumb="@drawable/seekbar_thumb" android:paddingStart="@dimen/custom_seekbar_padding" android:paddingEnd="@dimen/custom_seekbar_padding"/>
+</RelativeLayout>

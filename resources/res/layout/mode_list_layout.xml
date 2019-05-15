@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hmdglobal.app.camera.ui.ModeListView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera" android:id="@+id/mode_list_layout" android:background="@null" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:layout_gravity="top|left|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/mode_list" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <ImageView android:layout_gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/settings_button" android:background="@drawable/settings_gear_background" android:layout_width="@dimen/mode_list_settings_icon_size" android:layout_height="@dimen/mode_list_settings_icon_size" android:src="@drawable/ic_settings_normal" android:scaleType="center" android:contentDescription="@string/mode_settings"/>
+</com.hmdglobal.app.camera.ui.ModeListView>

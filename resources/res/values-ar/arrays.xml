@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>غير مفعّل</item>
+        <item>تلقائي</item>
+        <item>قيد التشغيل</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>في ذاكرة الهاتف</item>
+        <item>‏في بطاقة SD</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>تلقائي</item>
+        <item>نهاري</item>
+        <item>غائم</item>
+        <item>ظل</item>
+        <item>ضوء فلورسنت دافئ</item>
+        <item>براق</item>
+    </array>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>Izslēgts</item>
+        <item>Automātiski</item>
+        <item>Ieslēgts</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>Tālruņa atmiņā</item>
+        <item>SD kartē</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>Automātiski</item>
+        <item>Dienasgaisma</item>
+        <item>Mākoņains</item>
+        <item>Ēnojums</item>
+        <item>Silts fluorescējošs</item>
+        <item>Spožs</item>
+    </array>
+</resources>

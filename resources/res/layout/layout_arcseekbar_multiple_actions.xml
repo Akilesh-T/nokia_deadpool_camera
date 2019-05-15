@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera" android:id="@+id/arcseekbar_multiple_actions" android:paddingRight="20dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_multiple_actions" android:background="@drawable/arcseekbar_actions_bg" android:paddingTop="25dp" android:paddingBottom="25dp" android:layout_width="@dimen/arcseekbar_layout_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/arcseekbar_layout_margin_top" android:layout_alignParentRight="true">
+        <com.hmdglobal.app.camera.ui.RotateLayout android:id="@+id/rotate_web" style="@style/singleProRotateLayout">
+            <CheckBox android:id="@+id/cb_web" android:drawableTop="@drawable/ic_pro_setting_wb" style="@style/singlePro"/>
+        </com.hmdglobal.app.camera.ui.RotateLayout>
+        <com.hmdglobal.app.camera.ui.RotateLayout android:id="@+id/rotate_focus" style="@style/singleProRotateLayout">
+            <CheckBox android:id="@+id/cb_focus" android:drawableTop="@drawable/ic_pro_setting_focus" style="@style/singlePro"/>
+        </com.hmdglobal.app.camera.ui.RotateLayout>
+        <com.hmdglobal.app.camera.ui.RotateLayout android:id="@+id/rotate_iso" style="@style/singleProRotateLayout">
+            <CheckBox android:id="@+id/cb_iso" android:drawableTop="@drawable/ic_pro_setting_iso" style="@style/singlePro"/>
+        </com.hmdglobal.app.camera.ui.RotateLayout>
+        <com.hmdglobal.app.camera.ui.RotateLayout android:id="@+id/rotate_exposure_time" style="@style/singleProRotateLayout">
+            <CheckBox android:id="@+id/cb_shutter" android:drawableTop="@drawable/ic_pro_setting_shutter" style="@style/singlePro"/>
+        </com.hmdglobal.app.camera.ui.RotateLayout>
+        <com.hmdglobal.app.camera.ui.RotateLayout android:id="@+id/rotate_exposure_compensation" style="@style/singleProRotateLayout">
+            <CheckBox android:id="@+id/cb_exposure" android:drawableTop="@drawable/ic_pro_setting_exposure" style="@style/singlePro"/>
+        </com.hmdglobal.app.camera.ui.RotateLayout>
+    </LinearLayout>
+</RelativeLayout>

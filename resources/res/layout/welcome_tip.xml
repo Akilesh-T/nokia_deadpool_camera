@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hmdglobal.app.camera.ui.HelpTipCling xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera" android:id="@+id/help_tip_cling" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/help_tip_welcome_tour"/>
+</com.hmdglobal.app.camera.ui.HelpTipCling>

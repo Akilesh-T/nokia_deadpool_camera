@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>خاموش</item>
+        <item>خودکار</item>
+        <item>روشن</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>در حافظه تلفن</item>
+        <item>‏در کارت SD</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>خودکار</item>
+        <item>روشنایی روز</item>
+        <item>ابری</item>
+        <item>سايه</item>
+        <item>فلوروسنت</item>
+        <item>تابان</item>
+    </array>
+</resources>

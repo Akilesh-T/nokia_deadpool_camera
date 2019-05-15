@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>Вимкнено</item>
+        <item>Авто</item>
+        <item>Увімкнено</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>У пам&apos;яті телефону</item>
+        <item>На карті SD</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>Авто</item>
+        <item>Сонячно</item>
+        <item>Хмарно</item>
+        <item>Тінь</item>
+        <item>Тепле люмінісцентне</item>
+        <item>Лампа розжарювання</item>
+    </array>
+</resources>

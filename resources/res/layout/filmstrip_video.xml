@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera" android:background="@drawable/dummy_rect_background" android:layout_width="match_parent" android:layout_height="match_parent" android:elevation="10dp">
+    <ImageView android:layout_gravity="center" android:id="@+id/video_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:layout_gravity="center" android:id="@+id/play_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_control_play" android:contentDescription="@string/video_control_play"/>
+</FrameLayout>

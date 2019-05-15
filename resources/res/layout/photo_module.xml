@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/review_image" android:background="@android:color/black" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter"/>
+    <com.hmdglobal.app.camera.ui.CountDownView android:id="@+id/count_down_view" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="160dp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/remaining_seconds" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.hmdglobal.app.camera.ui.CountDownView>
+    <com.hmdglobal.app.camera.ui.RotateLayout android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/burst_count_layout" android:layout_width="@dimen/burst_count_height" android:layout_height="@dimen/burst_count_height" android:layout_marginBottom="@dimen/photo_module_burst_margin_bottom">
+        <TextView android:textSize="@dimen/photo_module_burst_text_size" android:textColor="@color/photo_module_burst_text_color" android:gravity="center" android:id="@+id/burst_count_view" android:background="@drawable/burst_count_circle_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium"/>
+    </com.hmdglobal.app.camera.ui.RotateLayout>
+    <com.hmdglobal.app.camera.ui.FaceBeautyOption android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@+id/face_beauty" android:background="@null" android:paddingRight="@dimen/manual_setting_margin_horizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/mode_options_height" android:layout_marginBottom="@dimen/photo_module_facebeauty_margin_bottom">
+        <com.hmdglobal.app.camera.ui.CustomSeekBar android:id="@+id/seekbar" android:visibility="invisible" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+        <com.hmdglobal.app.camera.ui.RotateImageView android:id="@+id/face_beauty_menu" android:background="@null" android:layout_width="@dimen/mode_option_width" android:layout_height="@dimen/mode_option_height" android:src="@drawable/ic_facebeauty"/>
+    </com.hmdglobal.app.camera.ui.FaceBeautyOption>
+    <com.hmdglobal.app.camera.ui.GesturePalmOption android:gravity="right" android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/gesture_palm_option" android:background="@null" android:paddingRight="@dimen/manual_setting_margin_horizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/mode_options_height" android:layout_marginTop="@dimen/photo_module_facebeauty_margin_bottom">
+        <com.hmdglobal.app.camera.ui.RotateImageView android:id="@+id/gesture_palm" android:layout_width="@dimen/sound_icon_width" android:layout_height="@dimen/sound_icon_width" android:src="@drawable/help_tip_gesture_palm" android:scaleType="fitXY"/>
+    </com.hmdglobal.app.camera.ui.GesturePalmOption>
+    <include layout="@layout/kid_sound_effect"/>
+</FrameLayout>

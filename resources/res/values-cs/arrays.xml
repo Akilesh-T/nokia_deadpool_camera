@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>Vypnuto</item>
+        <item>Automaticky</item>
+        <item>Zapnuto</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>V paměti telefonu</item>
+        <item>Na kartě SD</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>Automaticky</item>
+        <item>Denní světlo</item>
+        <item>Zataženo</item>
+        <item>Stín</item>
+        <item>Zářivka</item>
+        <item>Žárovka</item>
+    </array>
+</resources>

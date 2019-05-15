@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="ring" android:useLevel="false" android:innerRadius="25dp" android:thickness="3dp">
+    <solid android:color="@color/mode_selector_icon_background"/>
+    <size android:height="@dimen/mode_selector_icon_block_width" android:width="@dimen/mode_selector_icon_block_width"/>
+</shape>

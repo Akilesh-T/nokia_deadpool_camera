@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>បិទ</item>
+        <item>ស្វ័យប្រវត្តិ</item>
+        <item>បើក</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>ក្នុង​មេម៉ូរី​ទូរសព្ទ</item>
+        <item>ក្នុង​កាត SD</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>ស្វ័យប្រវត្តិ</item>
+        <item>ពន្លឺថ្ងៃ</item>
+        <item>ពពក​ច្រើន</item>
+        <item>ស្រមោល</item>
+        <item>អំពូលម៉ែត្រ</item>
+        <item>អំពូល​ពង​មាន់</item>
+    </array>
+</resources>

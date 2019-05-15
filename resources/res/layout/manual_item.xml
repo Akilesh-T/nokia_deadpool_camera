@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera" android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/manual_item_height">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/manual_progress_view" android:visibility="invisible" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <com.hmdglobal.app.camera.ui.RotateLayout android:gravity="center" android:id="@+id/rotateauto" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:id="@+id/auto_layout" android:layout_width="@dimen/automatic_button_size" android:layout_height="@dimen/automatic_button_size">
+                <ImageView android:gravity="center" android:id="@+id/auto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_manual_auto_normal"/>
+            </LinearLayout>
+        </com.hmdglobal.app.camera.ui.RotateLayout>
+        <com.hmdglobal.app.camera.ui.CustomSeekBar android:id="@+id/seekbar" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+    <com.hmdglobal.app.camera.ui.RotateLayout android:gravity="center" android:layout_gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/manul_mode_rotatelayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/item_root" android:layout_width="@dimen/manual_item_height" android:layout_height="@dimen/manual_item_height" android:scaleType="fitCenter" android:layout_centerInParent="true">
+            <ImageView android:textColor="#4fffffff" android:id="@+id/item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:scaleType="centerInside"/>
+            <TextView android:textSize="10sp" android:textColor="#ffffffff" android:gravity="center" android:id="@+id/description_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4dp"/>
+        </LinearLayout>
+    </com.hmdglobal.app.camera.ui.RotateLayout>
+</merge>

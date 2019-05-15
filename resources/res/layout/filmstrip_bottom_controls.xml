@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@+id/filmstrip_bottom_panel" android:paddingBottom="@dimen/filmstrip_bottom_control_spacing" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:visibility="invisible" android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1"/>
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/bottom_control_panel" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageButton android:id="@+id/filmstrip_bottom_control_share" android:visibility="invisible" android:src="@drawable/ic_share" android:contentDescription="@string/share_button_description" style="@style/FilmstripBottomControlButton"/>
+            <LinearLayout android:orientation="horizontal" android:visibility="visible" android:layout_width="@dimen/filmstrip_bottom_control_middle_two_buttons_layout_size" android:layout_height="wrap_content">
+                <View android:visibility="invisible" android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1"/>
+                <com.hmdglobal.app.camera.widget.ExternalViewerButton android:layout_gravity="center" android:id="@+id/filmstrip_bottom_control_view" android:visibility="gone" android:src="@drawable/ic_view_photosphere" android:contentDescription="@string/view_button_description" style="@style/FilmstripBottomControlButton"/>
+                <View android:id="@+id/filmstrip_bottom_control_middle_filler" android:visibility="invisible" android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1"/>
+                <ImageButton android:id="@+id/filmstrip_bottom_control_edit" android:visibility="gone" android:src="@drawable/ic_menu_edit" android:contentDescription="@string/edit_button_description" style="@style/FilmstripBottomControlButton"/>
+                <View android:visibility="invisible" android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1"/>
+            </LinearLayout>
+            <ImageButton android:id="@+id/filmstrip_bottom_control_delete" android:visibility="invisible" android:src="@drawable/ic_menu_trash" android:contentDescription="@string/delete_button_description" style="@style/FilmstripBottomControlButton"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/bottom_progress_error_panel" android:visibility="gone" android:layout_width="@dimen/filmstrip_bottom_control_layout_size" android:layout_height="@dimen/filmstrip_bottom_control_button_size">
+            <ImageView android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_error_normal" android:scaleType="centerInside"/>
+            <TextView android:id="@+id/bottom_progress_error_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/FilmstripBottomProgressText"/>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/bottom_progress_panel" android:visibility="gone" android:layout_width="@dimen/filmstrip_bottom_control_layout_size" android:layout_height="@dimen/filmstrip_bottom_control_button_size">
+            <TextView android:layout_gravity="center_horizontal" android:id="@+id/bottom_session_progress_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/FilmstripBottomProgressText"/>
+            <ProgressBar android:id="@+id/bottom_session_progress_bar" android:layout_width="match_parent" android:layout_height="0dp" android:progressDrawable="@drawable/bottom_progress_bar" android:layout_weight="1" style="@style/Widget.Holo.Light.ProgressBar.Horizontal"/>
+        </LinearLayout>
+    </FrameLayout>
+    <View android:visibility="invisible" android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1"/>
+</LinearLayout>

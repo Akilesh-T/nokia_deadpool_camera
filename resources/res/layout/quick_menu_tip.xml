@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.hmdglobal.app.camera.ui.HelpTipCling xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera" android:id="@+id/help_tip_cling" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_gravity="top|center_vertical|center_horizontal|center" android:id="@+id/help_tip_cling_content" android:layout_width="@dimen/help_tip_dialog_width" android:layout_height="wrap_content" android:layout_marginTop="@dimen/quick_menu_tip_margin_top">
+        <include layout="@layout/help_tip_quick_menu_dialog"/>
+        <ImageView android:id="@+id/help_tip_arrow" android:background="@drawable/help_tip_arrow_up" android:layout_width="@dimen/help_tip_dialog_arrow_width" android:layout_height="@dimen/help_tip_dialog_arrow_height" android:layout_marginRight="@dimen/quick_menu_tip_arrow_margin_right" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="top|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/shape" android:layout_width="@dimen/quick_menu_tip_circle_width" android:layout_height="@dimen/quick_menu_tip_circle_height" android:layout_marginTop="@dimen/quick_menu_tip_circle_margin_top" app:is_focus_view="true"/>
+</com.hmdglobal.app.camera.ui.HelpTipCling>

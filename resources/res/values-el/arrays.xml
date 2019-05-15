@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>Ανενεργή</item>
+        <item>Αυτόματο</item>
+        <item>Ενεργή</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>Στη μνήμη τηλεφώνου</item>
+        <item>Στην κάρτα SD</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>Αυτόματο</item>
+        <item>Φως ημέρας</item>
+        <item>Συννεφιά</item>
+        <item>Σκιά</item>
+        <item>Θερμός λαμπτήρας φθορισμού</item>
+        <item>Λαμπτήρας πυρακτώσεως</item>
+    </array>
+</resources>

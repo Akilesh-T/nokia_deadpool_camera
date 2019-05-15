@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:maxLevel="0">
+        <layer-list>
+            <item android:drawable="@drawable/button_background_pressed_light"/>
+            <item>
+                <bitmap android:gravity="center" android:src="@drawable/ic_capture_options"/>
+            </item>
+        </layer-list>
+    </item>
+    <item android:maxLevel="1">
+        <layer-list>
+            <item android:drawable="@drawable/button_background_pressed_dark"/>
+            <item>
+                <bitmap android:gravity="center" android:src="@drawable/ic_capture_options"/>
+            </item>
+        </layer-list>
+    </item>
+</level-list>

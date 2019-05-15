@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:camera="http://schemas.android.com/apk/res/com.hmdglobal.app.camera" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListPreference android:title="@string/setting_PREVIEW_SIZE" android:key="@string/KEY_CAPTURE_SIZE" android:summary="ListPreference" android:dialogTitle="@string/setting_PREVIEW_SIZE"/>
+    <CheckBoxPreference android:title="@string/setting_GPS" android:key="@string/KEY_GPS"/>
+    <ListPreference android:entries="@array/panoramagp3_SAVE_INPUT_IMAGES" android:title="@string/setting_SAVE_INPUT_IMAGES" android:key="@string/KEY_SAVE_INPUT_IMAGES" android:dialogTitle="@string/setting_SAVE_INPUT_IMAGES" android:entryValues="@array/panoramagp3_SAVE_INPUT_IMAGES_Value"/>
+    <com.morphoinc.app.panoramagp3.DoublePreference android:title="@string/setting_INPUT_MOVIE_FPS" android:key="@string/KEY_INPUT_MOVIE_FPS" android:dialogTitle="@string/setting_INPUT_MOVIE_FPS" app:def_value="15" app:max_value="60" app:min_value="1"/>
+    <CheckBoxPreference android:title="@string/setting_OIS" android:key="@string/KEY_OIS"/>
+    <CheckBoxPreference android:title="@string/setting_USE_60FPS" android:key="@string/KEY_USE_60FPS"/>
+    <CheckBoxPreference android:title="@string/setting_AUTO_EXPOSURE_LOCK" android:key="@string/KEY_AUTO_EXPOSURE_LOCK"/>
+    <CheckBoxPreference android:title="@string/setting_AUTO_WHITE_BALANCE_LOCK" android:key="@string/KEY_AUTO_WHITE_BALANCE_LOCK"/>
+    <ListPreference android:entries="@array/panoramagp3_ANTI_BANDING" android:title="@string/setting_ANTI_BANDING" android:key="@string/KEY_ANTI_BANDING" android:dialogTitle="@string/setting_ANTI_BANDING" android:entryValues="@array/panoramagp3_ANTI_BANDING_Value"/>
+    <ListPreference android:entries="@array/panoramagp3_ANTI_FLICKER_FREQ" android:title="@string/setting_ANTI_FLICKER_FREQ" android:key="@string/KEY_ANTI_FLICKER_FREQ" android:dialogTitle="@string/setting_ANTI_FLICKER_FREQ" android:entryValues="@array/panoramagp3_ANTI_FLICKER_FREQ_Value"/>
+    <com.morphoinc.app.panoramagp3.AovxPreference android:title="@string/setting_AOVX" android:key="@string/KEY_AOVX" android:dialogTitle="@string/setting_AOVX"/>
+    <com.morphoinc.app.panoramagp3.AovyPreference android:title="@string/setting_AOVY" android:key="@string/KEY_AOVY" android:dialogTitle="@string/setting_AOVY"/>
+    <com.morphoinc.app.panoramagp3.CalcseamPixnumPreference android:title="@string/setting_CALCSEAM_PIXNUM" android:key="@string/KEY_CALCSEAM_PIXNUM" android:dialogTitle="@string/setting_CALCSEAM_PIXNUM"/>
+    <com.morphoinc.app.panoramagp3.ShrinkRatioPreference android:title="@string/setting_SHRINK_RATIO" android:key="@string/KEY_SHRINK_RATIO" android:dialogTitle="@string/setting_SHRINK_RATIO"/>
+    <CheckBoxPreference android:title="@string/setting_DEFORM" android:key="@string/KEY_DEFORM"/>
+    <CheckBoxPreference android:title="@string/setting_LUMINANCE_CORRECTION" android:key="@string/KEY_LUMINANCE_CORRECTION"/>
+    <com.morphoinc.app.panoramagp3.DoublePreference android:title="@string/setting_SEAMSEARCH_RATIO" android:key="@string/KEY_SEAMSEARCH_RATIO" android:dialogTitle="@string/setting_SEAMSEARCH_RATIO" app:def_value="0.6" app:max_value="1" app:min_value="0"/>
+    <com.morphoinc.app.panoramagp3.DoublePreference android:title="@string/setting_ZROTATION_COEFF" android:key="@string/KEY_ZROTATION_COEFF" android:dialogTitle="@string/setting_ZROTATION_COEFF" app:def_value="0.8" app:max_value="1" app:min_value="0"/>
+    <com.morphoinc.app.panoramagp3.DoublePreference android:title="@string/setting_DRAW_THRESHOLD" android:key="@string/KEY_DRAW_THRESHOLD" android:dialogTitle="@string/setting_DRAW_THRESHOLD" app:def_value="1" app:max_value="360" app:min_value="0"/>
+    <ListPreference android:entries="@array/panoramagp3_SENSOR_MODE" android:title="@string/setting_SENSOR_MODE" android:key="@string/KEY_SENSOR_MODE" android:dialogTitle="@string/setting_SENSOR_MODE" android:entryValues="@array/panoramagp3_SENSOR_MODE_Value"/>
+    <ListPreference android:entries="@array/panoramagp3_SENSOR_USE_MODE" android:title="@string/setting_SENSOR_USE_MODE" android:key="@string/KEY_SENSOR_USE_MODE" android:dialogTitle="@string/setting_SENSOR_USE_MODE" android:entryValues="@array/panoramagp3_SENSOR_USE_MODE_Value"/>
+    <CheckBoxPreference android:title="@string/setting_USE_GRAVITY_SENSOR" android:key="@string/KEY_USE_GRAVITY_SENSOR"/>
+    <ListPreference android:entries="@array/panoramagp3_USE_ROUND_AUTO_END" android:title="@string/setting_ROUND_AUTO_END" android:key="@string/KEY_USE_ROUND_AUTO_END" android:dialogTitle="@string/setting_ROUND_AUTO_END" android:entryValues="@array/panoramagp3_USE_ROUND_AUTO_END_Value"/>
+    <CheckBoxPreference android:title="@string/setting_NR_AUTO" android:key="@string/KEY_NR_AUTO"/>
+    <com.morphoinc.app.panoramagp3.UnsharpStrengthPreference android:title="@string/setting_UNSHARP_STRENGTH" android:key="@string/KEY_UNSHARP_STRENGTH" android:dialogTitle="@string/setting_UNSHARP_STRENGTH"/>
+    <com.morphoinc.app.panoramagp3.NoiseReductionParamPreference android:title="@string/setting_NR_STRENGTH" android:key="@string/KEY_NR_STRENGTH" android:dialogTitle="@string/setting_NR_STRENGTH"/>
+    <ListPreference android:title="@string/setting_EDGE_MODE" android:key="@string/KEY_EDGE_MODE" android:dialogTitle="@string/setting_EDGE_MODE"/>
+    <ListPreference android:title="@string/setting_NOISE_REDUCTION_MODE" android:key="@string/KEY_NOISE_REDUCTION_MODE" android:dialogTitle="@string/setting_NOISE_REDUCTION_MODE"/>
+    <ListPreference android:title="@string/setting_CAPTURE_MODE" android:key="@string/KEY_CAPTURE_MODE" android:dialogTitle="@string/setting_CAPTURE_MODE"/>
+    <ListPreference android:title="@string/setting_COLOR_CORRECTION_MODE" android:key="@string/KEY_COLOR_CORRECTION_MODE" android:dialogTitle="@string/setting_COLOR_CORRECTION_MODE"/>
+    <ListPreference android:title="@string/setting_SHADING_MODE" android:key="@string/KEY_SHADING_MODE" android:dialogTitle="@string/setting_SHADING_MODE"/>
+    <ListPreference android:title="@string/setting_TONEMAP_MODE" android:key="@string/KEY_TONEMAP_MODE" android:dialogTitle="@string/setting_TONEMAP_MODE"/>
+    <com.morphoinc.app.panoramagp3.DoublePreference android:title="@string/setting_AOV_GAIN" android:key="@string/KEY_AOV_GAIN" android:dialogTitle="@string/setting_AOV_GAIN" app:def_value="1" app:max_value="1.5" app:min_value="0.5"/>
+    <com.morphoinc.app.panoramagp3.DoublePreference android:title="@string/setting_DISTORTION_K1" android:key="@string/KEY_DISTORTION_K1" android:dialogTitle="@string/setting_DISTORTION_K1" app:def_value="0" app:max_value="1" app:min_value="-1"/>
+    <com.morphoinc.app.panoramagp3.DoublePreference android:title="@string/setting_DISTORTION_K2" android:key="@string/KEY_DISTORTION_K2" android:dialogTitle="@string/setting_DISTORTION_K2" app:def_value="0" app:max_value="1" app:min_value="-1"/>
+    <com.morphoinc.app.panoramagp3.DoublePreference android:title="@string/setting_DISTORTION_K3" android:key="@string/KEY_DISTORTION_K3" android:dialogTitle="@string/setting_DISTORTION_K3" app:def_value="0" app:max_value="1" app:min_value="-1"/>
+    <com.morphoinc.app.panoramagp3.DoublePreference android:title="@string/setting_DISTORTION_K4" android:key="@string/KEY_DISTORTION_K4" android:dialogTitle="@string/setting_DISTORTION_K4" app:def_value="0" app:max_value="1" app:min_value="-1"/>
+    <com.morphoinc.app.panoramagp3.DoublePreference android:title="@string/setting_ROTATION_RATIO" android:key="@string/KEY_ROTATION_RATIO" android:dialogTitle="@string/setting_ROTATION_RATIO" app:def_value="1" app:max_value="1.2" app:min_value="0.8"/>
+    <ListPreference android:entries="@array/panoramagp3_UI_CONTROL_MODE" android:title="@string/setting_UI_CONTROL_MODE" android:key="@string/KEY_UI_CONTROL_MODE" android:dialogTitle="@string/setting_UI_CONTROL_MODE" android:entryValues="@array/panoramagp3_UI_CONTROL_MODE_Values"/>
+    <ListPreference android:entries="@array/panoramagp3_FOCUS_MODE" android:title="@string/setting_FOCUS_MODE" android:key="@string/KEY_FOCUS_MODE" android:dialogTitle="@string/setting_FOCUS_MODE" android:entryValues="@array/panoramagp3_FOCUS_MODE_Value"/>
+    <ListPreference android:entries="@array/panoramagp3_PROJECTION_MODE" android:title="@string/setting_PROJECTION_MODE" android:key="@string/KEY_PROJECTION_MODE" android:dialogTitle="@string/setting_PROJECTION_MODE" android:entryValues="@array/panoramagp3_PROJECTION_MODE_Value"/>
+    <ListPreference android:entries="@array/panoramagp3_MOTION_DETECTION_MODE" android:title="@string/setting_MOTION_DETECTION_MODE" android:key="@string/KEY_MOTION_DETECTION_MODE" android:dialogTitle="@string/setting_MOTION_DETECTION_MODE" android:entryValues="@array/panoramagp3_MOTION_DETECTION_MODE_Value"/>
+    <CheckBoxPreference android:title="@string/setting_KEY_USE_CAMERA2" android:key="@string/KEY_USE_CAMERA2"/>
+    <ListPreference android:title="@string/setting_CAMERA_ID" android:key="@string/KEY_CAMERA_ID" android:dialogTitle="@string/setting_CAMERA_ID"/>
+    <CheckBoxPreference android:title="@string/setting_USE_WDR2" android:key="@string/KEY_USE_WDR2"/>
+    <CheckBoxPreference android:title="@string/setting_MAKE_360" android:key="@string/KEY_MAKE_360"/>
+    <Preference android:title="Hardware Level" android:key="@string/KEY_HARDWARE_LEVEL"/>
+    <Preference android:title="Timestamp Source" android:key="@string/KEY_TIMESTAMP_SOURCE"/>
+    <PreferenceScreen android:title="@string/panoramagp3_ABOUT">
+        <PreferenceCategory android:title="@string/panoramagp3_ABOUT_TITLE">
+            <Preference android:layout="@xml/about_preference" android:key="@string/KEY_ABOUT" android:summary=""/>
+        </PreferenceCategory>
+    </PreferenceScreen>
+</PreferenceScreen>

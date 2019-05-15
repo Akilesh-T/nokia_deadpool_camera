@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="instant_capture_photos">
+        <item>Fotografija: %1$d</item>
+        <item>Fotografija: %1$d</item>
+    </plurals>
+</resources>

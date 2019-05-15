@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>כבויה</item>
+        <item>אוטומטי</item>
+        <item>מופעלת</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>בזיכרון הפנימי של הטלפון</item>
+        <item>‏בכרטיס SD</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>אוטומטי</item>
+        <item>אור יום</item>
+        <item>מעונן</item>
+        <item>צל</item>
+        <item>תאורת ניאון</item>
+        <item>זוהר</item>
+    </array>
+</resources>

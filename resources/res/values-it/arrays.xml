@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>Non attiva</item>
+        <item>Automatica</item>
+        <item>Attiva</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>Nella memoria del telefono</item>
+        <item>Nella scheda SD</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>Automatica</item>
+        <item>Luce diurna</item>
+        <item>Nuvoloso</item>
+        <item>Ombra</item>
+        <item>Fluorescente</item>
+        <item>Incandescente</item>
+    </array>
+</resources>

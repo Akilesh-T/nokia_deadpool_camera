@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>Изключено</item>
+        <item>Автоматично</item>
+        <item>Включено</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>В паметта на телефона</item>
+        <item>В SD картата</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>Автоматично</item>
+        <item>Дневна светлина</item>
+        <item>Облачно</item>
+        <item>Сянка</item>
+        <item>Флуоресцентно осветление</item>
+        <item>Електрическо осветление</item>
+    </array>
+</resources>

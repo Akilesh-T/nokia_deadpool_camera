@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="pref_camera_hdr_texts">
+        <item>Kapalı</item>
+        <item>Otomatik</item>
+        <item>Açık</item>
+    </array>
+    <array name="pref_camera_savepath_entries">
+        <item>Telefon hafızasında</item>
+        <item>SD kartta</item>
+    </array>
+    <array name="white_balance_strings">
+        <item>Otomatik</item>
+        <item>Gün Işığı</item>
+        <item>Bulutlu</item>
+        <item>Gölge</item>
+        <item>Floresan</item>
+        <item>Ampul</item>
+    </array>
+</resources>
